@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Histogramme</title>
+    <style>
+        h2{
+            color: #34548e;
+            margin-left: 80px;
+        }
+    </style>
+</head>
+<body>
+
+    <svg id="svg" width="400" height="400" style="background: rgb(255, 255, 255);"></svg> <br>
+    <h2>Histogramme details</h2>
+
+    <script src="test.js"></script>
+
+    <script>
+        let svg = document.querySelector('#svg');
+
+        let plot = new Plot(svg);
+    </script>
+</body>
+</html>
